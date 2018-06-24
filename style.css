@@ -75,8 +75,8 @@ body {
 	.user-account {
 		text-align: right;
 		display: inline-block;
-		right: 4em;
-		top: 1em;
+		right: 5%;
+		top: 2em;
 		position: absolute;
 		border: 1px solid #eee;
 		border-bottom: 0.2em solid #FF596E;
@@ -113,7 +113,7 @@ body {
 		font-size: 3em;
 		font-family: 'Vollkorn SC', serif;
 		color: #FF596E;
-		padding-top: 1.5em;
+		padding-top: 1em;
 	}
 	#site-overview {
 		padding: 1em 0;
@@ -239,8 +239,8 @@ body {
 				font-family: 'Marvel', sans-serif;
 			}
 		.entry-title {
-			font-size: 1.5em;
-			line-height: 1.5em;
+			font-size: 1.7em;
+			line-height: 1.7em;
 			padding-bottom: 0.5em;
 			font-family: 'Arvo', serif;
 		}
