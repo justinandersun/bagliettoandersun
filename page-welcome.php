@@ -40,7 +40,7 @@
 		<div id="welcome-content">
 			<p class="welcome-tag-line">We provide data for important policy decisions.</p>
 			<p class="welcome-tag-line">Gain a competitive edge with our political intelligence software.</p>
-			<a class="request-demo" href="mailto:justinandersun@gmail.com?subject=Baglietto%20Andersun%20Demo%20Request">Request a Demo</a>
+			<a class="request-demo" href="mailto:bagliettoandersun@gmail.com?subject=Baglietto%20Andersun%20Demo%20Request">Request a Demo</a>
 		</div>
 		
 		<div class="top-bar">
