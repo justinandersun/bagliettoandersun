@@ -16,6 +16,18 @@
 </head>
 <body <?php body_class(); ?>>
 	<div id="wrapper" class="hfeed">
+		<div class="top-bar">
+			<div class="top-bar-segment" id="top-1"></div>
+			<div class="top-bar-segment" id="top-2"></div>
+			<div class="top-bar-segment" id="top-3"></div>
+			<div class="top-bar-segment" id="top-4"></div>
+			<div class="top-bar-segment" id="top-5"></div>
+			<div class="top-bar-segment" id="top-6"></div>
+			<div class="top-bar-segment" id="top-7"></div>
+			<div class="top-bar-segment" id="top-8"></div>
+			<div class="top-bar-segment" id="top-9"></div>
+			<div class="top-bar-segment" id="top-10"></div>
+		</div>
 		<header id="welcome-header" role="banner">
 			<div id="welcome-buttons">
 				<a class="sign-up-button" href="register">Sign up</a>
@@ -30,11 +42,26 @@
 			<p class="welcome-tag-line">Gain a competitive edge with our political intelligence software.</p>
 			<a class="request-demo" href="mailto:justinandersun@gmail.com?subject=Baglietto%20Andersun%20Demo%20Request">Request a Demo</a>
 		</div>
-
-		<footer id="welcome-footer" role="contentinfo">
-			<div id="copyright">
+		
+		<div class="top-bar">
+			<div class="top-bar-segment" id="top-1"></div>
+			<div class="top-bar-segment" id="top-2"></div>
+			<div class="top-bar-segment" id="top-3"></div>
+			<div class="top-bar-segment" id="top-4"></div>
+			<div class="top-bar-segment" id="top-5"></div>
+			<div class="top-bar-segment" id="top-6"></div>
+			<div class="top-bar-segment" id="top-7"></div>
+			<div class="top-bar-segment" id="top-8"></div>
+			<div class="top-bar-segment" id="top-9"></div>
+			<div class="top-bar-segment" id="top-10"></div>
+		</div>
+		<footer id="footer" role="contentinfo">
+			<p class="legal-notes">
+				<a href="<?php echo home_url(); ?>/privacy">Privacy Policy</a> | <a href="<?php echo home_url(); ?>/terms">Terms &amp; Conditions</a> | <a href="<?php echo home_url(); ?>/contact">Contact Us</a> 
+			</p>
+			<p class="copyright">
 				<?php echo '&copy; ', date( 'Y' ), ' Baglietto & Andersun. All Rights Reserved.' ?>
-			</div>
+			</p>
 		</footer>
 
 	</div>

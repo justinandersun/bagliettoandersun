@@ -195,15 +195,4 @@ function senate_init() {
 
 
 
-function click_taxonomy_dropdown($taxonomy) { ?>
-	<form action="/" method="get">
-	<select name="cat" id="cat" class="postform">
-	<option value="-1">- Select -</option>
-	<?php
-	$terms = get_terms($taxonomy);
-	foreach ($terms as $term) {
-		printf( '<option class="level-0" value="%s">%s</option>', $term->slug, $term->name );
-	}
-	echo '</select></form>';
-	?>
-<?php }
+

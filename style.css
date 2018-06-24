@@ -15,8 +15,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /*
 COLORS
-Red 1: #E55063;
-Red 2: #FF596E; (BASE)
+Red 1: #FF596E; (BASE)
+Red 2: #E55063;
 Red 3: #BF4352;
 Red 4: #7F2C37;
 Red 5: #40161B;
@@ -239,7 +239,7 @@ body {
 				font-family: 'Marvel', sans-serif;
 			}
 		.entry-title {
-			font-size: 2em;
+			font-size: 1.5em;
 			line-height: 1.5em;
 			padding-bottom: 0.5em;
 			font-family: 'Arvo', serif;
@@ -287,13 +287,13 @@ body {
 					letter-spacing: 0.1em;
 					font-family: 'Marvel', sans-serif;
 				}		
-					.entry-links a {
+					.entry-link-list a {
 						text-decoration: none;
 						color: #FF596E;
 						font-weight: 600;
 						transition: 100ms;
 					}
-						.entry-links a:hover {
+						.entry-link-list a:hover {
 							border-bottom: 0.1em solid #FF596E;
 							transition: 100ms;
 						}
@@ -324,6 +324,18 @@ body {
 			.nav-next {
 				text-align: right;
 			}
+
+	.printfriendly {
+		margin: 1em auto;
+		text-align: right;
+	}
+
+	.page-title {
+		font-size: 2em;
+		padding-bottom: 1em;
+		font-family: 'Arvo', serif;
+		text-align: center;
+	}
 
 #sidebar {
 	margin: 1em 5% 1em 2.5%;
@@ -377,11 +389,25 @@ body {
 	color: #fff;
 	padding: 5em 0;
 	text-align: center;
-	font-family: 'Marvel', sans-serif;
-	font-size: 1.1em;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
+	font-family: 'Arvo', serif;
 }
+	.legal-notes {
+		margin-bottom: 2em;
+	}
+		.legal-notes a {
+			text-decoration: none;
+			color: #FFF;
+			margin: 0 1em;
+			transition: 300ms;
+			padding-bottom: 0.3em;
+		}
+			.legal-notes a:hover {
+				border-bottom: 0.2em solid #FFF;
+				transition: 300ms;
+			}
+	.copyright {
+		margin-top: 2em;
+	}
 
 /* Tables */
 .tablepress {
@@ -440,44 +466,43 @@ body {
 				transition: 300ms;
 			}
 			.sign-up-button {
-				background-color: #CC4758;
+				background-color: #FF596E;
 			}
 				.sign-up-button:hover {
-					background-color: #7F2C37;
+					background-color: #E55063;
 				}
 			.log-in-button {
-				background-color: #339BCC;
+				background-color: #7F2C37;
 			}
 				.log-in-button:hover {
-					background-color: #358BB2;
+					background-color: #40161B;
 				}
 
 	#welcome-site-title {
-		font-size: 3em;
+		font-size: 4em;
 		font-family: 'Vollkorn SC', serif;
-		padding-top: 2em;
+		padding-top: 1.5em;
 		text-align: center;
 	}
 	#welcome-site-overview {
 		padding: 1em 0;
 		font-family: 'Marvel', sans-serif;
-		font-size: 1.5em;
+		font-size: 2em;
 		text-transform: uppercase;
 		letter-spacing: 0.2em;
-		padding-bottom: 7em;
+		padding-bottom: 6em;
 		text-align: center;
 	}
 
 #welcome-content {
-	background-color: rgb(127, 83, 88);
+	background-color: #7F2C37;
 	padding: 5em 0;
 	text-align: center;
 }
 	.welcome-tag-line {
 		color: #FFF;
 		text-align: center;
-		font-style: italic;
-		font-size: 2em;
+		font-size: 1.7em;
 		padding: 1em 0;
 	}
 	.request-demo {
@@ -498,18 +523,6 @@ body {
 			background-color: #CC4758;
 			transition: 300ms;
 		}
-
-#welcome-footer {
-	background-color: #eee;
-	color: #333;
-	padding: 5em 0;
-	text-align: center;
-	font-family: 'Marvel', sans-serif;
-	font-size: 1.1em;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
-
 
 
 /* Member Page */

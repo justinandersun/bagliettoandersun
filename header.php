@@ -45,11 +45,14 @@
 				} else { }
 				?>
 			</div>
-			<a class="no-link" href="<?php echo home_url(); ?>/news">
-				<p id="site-title">Baglietto & Andersun</p>
-				<p id="site-overview">Political Intelligence</p>
-			</a>
+			<p id="site-title">Baglietto & Andersun</p>
+			<p id="site-overview">Political Intelligence</p>
 		</header>
 
 		<div id="container">
-
+			<div id="nav">
+				<a href="<?php echo home_url(); ?>/news" <?php if (is_home()) { echo " class=\"current-page\""; } else { echo " class=\"normal-page\"";}?>>News</a>
+				<a href="<?php echo home_url(); ?>/committees" <?php if (is_page('California State Committees')) { echo " class=\"current-page\""; } else { echo " class=\"normal-page\"";}?>>Committees</a>
+				<a href="<?php echo home_url(); ?>/assembly" <?php if (is_page('California State Assembly Members')) { echo " class=\"current-page\""; } else { echo " class=\"normal-page\"";}?>>Assembly</a>
+				<a href="<?php echo home_url(); ?>/senate" <?php if (is_page('California State Senate Members')) { echo " class=\"current-page\""; } else { echo " class=\"normal-page\"";}?>>Senate</a>
+			</div>

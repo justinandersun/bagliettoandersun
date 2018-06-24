@@ -13,9 +13,12 @@
 			<div class="top-bar-segment" id="top-10"></div>
 		</div>
 		<footer id="footer" role="contentinfo">
-			<div id="copyright">
+			<p class="legal-notes">
+				<a href="<?php echo home_url(); ?>/privacy">Privacy Policy</a> | <a href="<?php echo home_url(); ?>/terms">Terms &amp; Conditions</a> | <a href="<?php echo home_url(); ?>/contact">Contact Us</a> 
+			</p>
+			<p class="copyright">
 				<?php echo '&copy; ', date( 'Y' ), ' Baglietto & Andersun. All Rights Reserved.' ?>
-			</div>
+			</p>
 		</footer>
 	</div>
 <?php wp_footer(); ?>
