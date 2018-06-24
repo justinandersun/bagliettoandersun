@@ -13,7 +13,6 @@
 			<div class="top-bar-segment" id="top-10"></div>
 		</div>
 		<footer id="footer" role="contentinfo">
-			<!-- <p><a href="">About</a> | <a href="">Contact</a> | <a href="">Careers</a> | <a href="">Legal</a> | <a href="">Terms</a></p> -->
 			<div id="copyright">
 				<?php echo '&copy; ', date( 'Y' ), ' Baglietto & Andersun. All Rights Reserved.' ?>
 			</div>
